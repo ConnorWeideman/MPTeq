@@ -12,8 +12,10 @@ const navToggle = document.querySelector("#nav-toggle");
 navToggle.addEventListener("change", () => toggleDesign(navs, navToggle));
 
 const mainToggle = document.querySelector("#main-toggle");
-const mains = document.querySelectorAll("main .design");
-mainToggle.addEventListener("change", () => toggleDesign(mains, mainToggle));
+if (mainToggle) {
+    const mains = document.querySelectorAll("main .design");
+    mainToggle.addEventListener("change", () => toggleDesign(mains, mainToggle));
+}
 
 const footers = document.querySelectorAll("footer .design");
 const footerToggle = document.querySelector("#footer-toggle");

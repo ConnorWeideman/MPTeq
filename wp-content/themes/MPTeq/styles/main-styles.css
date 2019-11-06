@@ -1,6 +1,18 @@
 body {
     margin: 0;
 }
+img {
+    user-drag: none;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
 .toggle {
     position: absolute;
     right: 5px;
@@ -232,6 +244,7 @@ footer #design1 .column a {
     padding: 10px;
     margin: 5px;
     background-color: #444;
+    color: #FFF;
     cursor: pointer;
 }
 footer #design1 .column a:hover {

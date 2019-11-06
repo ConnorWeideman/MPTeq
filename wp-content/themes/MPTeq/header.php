@@ -15,50 +15,86 @@
     <meta name="keywords" content="mineral, mining, processing, technology, mpteq, minerals">
     <link rel="icon" href="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Small-Logo.png">
     <title>Home</title>
-    <script src="https://kit.fontawesome.com/5633037ef4.js"></script>
+    <script src="https://kit.fontawesome.com/5633037ef4.js" data-auto-replace-svg="nest"></script>
     <?php wp_head()?>
 </head>
 
 <body>
     <div id="navbar">
         <header class="design" id="design1" style="display:block">
-            <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
+            <a href="<?php bloginfo('wpurl')?>">
+                <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
+            </a>
             <nav>
                 <ol>
-                    <li><a>ABOUT</a></li>
-                    <li><a>PRODUCTS</a></li>
-                    <li><a>PROJECTS</a></li>
-                    <li><a>NEWS</a></li>
-                    <li><a>CONTACT</a></li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/products">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/projects">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/news">NEWS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/contact">CONTACT</a>
+                    </li>
                 </ol>
             </nav>
         </header>
         <header class="design" id="design2" style="display:none">
             <nav>
-                <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
+                <a href="<?php bloginfo('wpurl')?>">
+                    <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
+                </a>
                 <ol>
-                    <li><a>ABOUT</a></li>
-                    <li><a>PRODUCTS</a></li>
-                    <li><a>PROJECTS</a></li>
-                    <li><a>NEWS</a></li>
-                    <li><a>CONTACT</a></li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/products">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/projects">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/news">NEWS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/contact">CONTACT</a>
+                    </li>
                 </ol>
             </nav>
         </header>
         <header class="design" id="design3" style="display:none">
             <nav>
-                <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
+                <a href="<?php bloginfo('wpurl')?>">
+                    <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
+                </a>
                 <div id="contact">
                     <p>PHONE: +27 (0) 79 885 2513</p>
                     <p>FAX: +27 (0) 86 293 0351</p>
                     <p>EMAIL: info@mpteq.com</p>
                 </div>
                 <ol>
-                    <li><a>ABOUT</a></li>
-                    <li><a>PRODUCTS</a></li>
-                    <li><a>PROJECTS</a></li>
-                    <li><a>NEWS</a></li>
-                    <li><a>CONTACT</a></li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/products">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/projects">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/news">NEWS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/contact">CONTACT</a>
+                    </li>
                 </ol>
             </nav>
         </header>
@@ -66,12 +102,24 @@
             <nav>
                 <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="logo">
                 <ol>
-                    <li class="active"><a>HOME</a></li>
-                    <li><a>ABOUT</a></li>
-                    <li><a>PRODUCTS</a></li>
-                    <li><a>PROJECTS</a></li>
-                    <li><a>NEWS</a></li>
-                    <li><a>CONTACT</a></li>
+                    <li class="active">
+                        <a href="<?php bloginfo('wpurl')?>">HOME</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/products">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/projects">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/news">NEWS</a>
+                    </li>
+                    <li>
+                        <a href="<?php bloginfo('wpurl')?>/contact">CONTACT</a>
+                    </li>
                 </ol>
             </nav>
             <div class="diagonal"></div>
