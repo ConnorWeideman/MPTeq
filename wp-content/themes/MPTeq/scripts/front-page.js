@@ -53,7 +53,6 @@ document.querySelectorAll("#main4 #products #product-container #toggles a").forE
 });
 
 function main4ProjectsToggle(id) {
-    console.log(id)
     document.querySelectorAll("#main4 #projects #info .project-info").forEach(info => {
         if (info.id == id) {
             info.classList.add("show");
@@ -64,7 +63,6 @@ function main4ProjectsToggle(id) {
     })
 }
 document.querySelectorAll("#main4 #projects #map .project").forEach(toggle => {
-    console.log(toggle.id);
     toggle.addEventListener("click", e => {
         main4ProjectsToggle(e.currentTarget.id.charAt(7))
     });

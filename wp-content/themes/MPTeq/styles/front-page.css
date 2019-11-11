@@ -82,7 +82,7 @@
 #main1 #cards .card {
     height: 30vh;
     width: 20%;
-    background: radial-gradient(#FFF,#DDD);
+    background: radial-gradient(#FFF,#CCC);
     border: 1px solid #AAA;
     box-shadow: 0 0 5px #888;
     box-sizing: border-box;
@@ -92,9 +92,9 @@
     cursor: pointer;
 }
 #main1 #cards .card:hover {
-    background: radial-gradient(#DDD,#BBB);
+    background: radial-gradient(#FFF,#EEE);
     box-shadow: 0 0 10px #555;
-    color: #222;
+    color: #111;
     transform: translateY(-5%) scale(1.05);
 }
 #main1 #cards #card1 {

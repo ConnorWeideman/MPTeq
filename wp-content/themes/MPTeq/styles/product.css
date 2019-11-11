@@ -1,0 +1,159 @@
+#product1 {
+    min-height: 50vh;
+    background: #DDD;
+}
+#product1 #toggles {
+    height: 10vh;
+    display: flex;
+}
+#product1 #toggles a {
+    flex: 25%;
+    border: 1px solid #000;
+    background: radial-gradient(#FFF, #DDD);
+    height: 100%;
+    box-sizing: border-box;
+    line-height: 10vh;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+#product1 #toggles a:hover {
+    background: radial-gradient(#DDD, #BBB);
+}
+#product1 #content > div {
+    display: none;
+    padding: 50px;
+}
+#product1 #content > div:first-child {
+    display: block;
+}
+#product1 #content #about {
+    overflow: hidden;
+}
+#product1 #content #about img {
+    float: right;
+    width: 30%;
+    border: 5px inset #AAA;
+    margin: 50px;
+}
+#product1 #content #about h2 {
+    padding: 50px 0 0;
+}
+#product1 #content #specifications #wrap {
+    display: flex;
+}
+#product1 #content #specifications .spec {
+    flex: auto;
+    text-align: center;
+    padding: 50px;
+}
+#product1 #content #specifications .spec i {
+    font-size: xx-large;
+}
+#product1 #content #pricing {
+    padding: 100px;
+}
+#product1 #content #pricing #wrap {
+    display: flex;
+}
+#product1 #content #pricing #wrap .option {
+    flex: auto;
+    margin: 10px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #222;
+}
+#product1 #content #gallery {
+    padding: 50px;
+}
+#product1 #content #gallery #wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+#product1 #content #gallery #wrap .photo {
+    flex: 25%;
+    height: 30vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+#product1 #content #gallery #wrap .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#product2 {
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+#product2 #about #img {
+    float: right;
+    width: 40%;
+    height: 50vh;
+    border: 5px inset #999;
+    margin: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+#product2 #about #img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#product2 #about #img #toggle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: xx-large;
+    cursor: pointer;
+
+}
+#product2 #about #img #toggle:hover {
+    color: #DDD;
+}
+#product2 #gallery {
+    display: none;
+    padding: 50px;
+}
+#product2 #gallery #wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+#product2 #gallery #wrap .photo {
+    flex: 25%;
+    height: 30vh;
+    border: 1px solid #000;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+#product2 #gallery #wrap .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#product2 #specifications {
+    width: 100%;
+}
+#product2 #specifications #wrap {
+    display: flex;
+}
+#product2 #specifications .spec {
+    flex: auto;
+    text-align: center;
+    padding: 50px;
+    background: radial-gradient(#FFF, #DDD);
+    margin: 50px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px #222;
+}
+#product2 #specifications .spec i {
+    font-size: xx-large;
+}
