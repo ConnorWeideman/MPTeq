@@ -1,0 +1,77 @@
+#news1 {
+    padding: 100px;
+    background: linear-gradient(#EEE, #AAA);
+}
+#news1 .news {
+    border-top: 1px solid #F00;
+    padding: 20px 0;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#news1 .news:last-child {
+    border-bottom: 1px solid #F00;
+}
+#news1 .news:hover {
+    background: #FFF;
+}
+#news1 .news .left {
+    flex: 20%;
+}
+#news1 .news .left .day {
+    margin: auto;
+    border: 1px solid #000;
+    font-size: xx-large;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #222;
+    text-align: center;
+    background: #FFF;
+    transition: 0.5s;
+    padding: 20px;
+    width: max-content;
+}
+#news1 .news:hover .left .day {
+    background: #EEE;
+}
+#news1 .news .left .month {
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    padding: 20px 0;
+}
+#news1 .news .right {
+    flex: 80%;
+}
+#news2 .news {
+    border-bottom: 5px ridge #AAA;
+    box-shadow: 0 0 5px 2px inset #555;
+    padding: 50px;
+}
+#news2 .news .wrap {
+    width: 50%;
+    margin: auto;
+}
+#news2 .news .wrap img {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: cover;
+    border: 5px inset #F00;
+}
+#news2 .news .wrap .title-date * {
+    line-height: 10vh;
+    vertical-align: middle;
+}
+#news2 .news .wrap .title-date a:hover {
+    color: #555;
+}
+#news2 .news .wrap .title-date h2 {
+    display: inline;
+    margin: 0;
+}
+#news2 .news .wrap .title-date p {
+    float: right;
+    margin: 0;
+}

@@ -1,5 +1,5 @@
 let start = 0;
-function slideFn(timestamp) {
+function slideFn() {
     document.querySelector("#clients #client-row #wrap").style.left = start - 25 + "%";
     if (start > -75) {
         start -= 25;

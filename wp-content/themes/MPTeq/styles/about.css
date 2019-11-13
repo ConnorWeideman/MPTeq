@@ -1,32 +1,134 @@
 #about1 #company {
+    padding: 50px;
+    text-align: center;
+}
+#about1 #stats {
+    display: flex;
+    padding: 50px;
+}
+#about1 #stats .card {
+    width: 15%;
+    margin: 0 5%;
+    height: 25vh;
+    background: radial-gradient(#FFF, #DDD);
+    border: 3px outset #F00;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #222;
+}
+#about1 #stats .card .number {
+    height: 15vh;
+    line-height: 15vh;
+    vertical-align: middle;
+    font-size: 10vh;
+    width: 100%;
+    text-align: center;
+}
+#about1 #stats .card .category {
+    height: 10vh;
+    line-height: 10vh;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+#about1 #partners {
+    width: 100%;
+    color: #FFF;
+    background-color: #222;
+    padding: 50px;
+    box-sizing: border-box;
+}
+#about1 #partners h2 {
+    text-align: center;
+}
+#about1 #partners #partner-row {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+}
+#about1 #partners #partner-row .partner {
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px;
+    transition: 0.5s;
+}
+#about1 #partners #partner-row .partner:first-child {
+    text-align: right;
+    border-right: 1px solid #F00;
+}
+#about1 #partners #partner-row .partner:hover {
+    background-color: #444;
+}
+#about1 #clients {
+    background: #FFF;
+    box-shadow: 0 0 10px inset #000;
+    padding: 50px 15%;
+}
+#about1 #clients h3 {
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+}
+#about1 #clients #client-photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#about1 #clients #client-photos .client {
+    max-width: 25%;
+}
+#about1 #clients #client-photos .client img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#about1 #clients #client-names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#about1 #clients #client-names p {
+    display: inline;
+    line-height: 50px;
+    min-width: 20%;
+    vertical-align: middle;
+    text-align: center;
+}
+#about2 #company {
     background-color: #FFF;
     padding: 100px 15%;
     overflow: hidden;
 }
-#about1 #company img {
+#about2 #company h2 {
+    margin-top: 0;
+}
+#about2 #company img {
     float: right;
     width: 40%;
     margin: 0 5%;
-    border: 5px inset #DDD;
+    border: 5px inset #BBB;
     box-sizing: border-box;
 }
-#about1 #company #download {
+#about2 #company #download {
     padding: 10px 20px;
 
     margin: 10px 0;
     outline: none;
 }
-#about1 #partners {
+#about2 #partners {
     background: #DDD;
     text-align: center;
-    padding: 50px;
     border: 1px solid #BBB;
+    box-shadow: 0 0 5px inset #555;
 }
-#about1 #partners h2 {
+#about2 #partners h2 {
     margin: 0;
-    padding: 50px;
+    padding: 100px 0 50px;
 }
-#about1 #partners #partner-row {
+#about2 #partners #partner-row {
     width: 100%;
     height: 30vh;
     overflow: visible;
@@ -34,7 +136,7 @@
     position: relative;
     background: linear-gradient(#999, #333);
 }
-#about1 #partners #partner-row .partner {
+#about2 #partners #partner-row .partner {
     height: 30vh;
     width: 20%;
     margin: 0 15%;
@@ -49,42 +151,42 @@
     cursor: pointer;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-}
-#about1 #partners #partner-row .partner:first-child {
-    left: 0;
-}
-#about1 #partners #partner-row .partner:hover {
-    box-shadow: 0 0 10px #555;
-    color: #111;
     transform: scale(1.05);
 }
-#about1 #partners #partner-row .partner img {
+#about2 #partners #partner-row .partner:first-child {
+    left: 0;
+}
+#about2 #partners #partner-row .partner:hover {
+    box-shadow: 0 0 10px #555;
+    color: #111;
+    transform: scale(1.2);
+}
+#about2 #partners #partner-row .partner img {
     width: 80%;
     height: auto;
     margin: auto;
     vertical-align: middle;
     object-fit: contain;
 }
-#about1 #partners p {
+#about2 #partners p {
     padding: 50px;
     width: 60%;
     margin: auto;
 }
-#about1 #clients {
+#about2 #clients {
     padding: 50px 0;
 }
-#about1 #clients h2 {
+#about2 #clients h2 {
     padding-bottom: 50px;
     text-align: center;
 }
-#about1 #clients #client-row {
+#about2 #clients #client-row {
     width: 100%;
     position: relative;
     overflow: hidden;
     height: 30vh;
 }
-#about1 #clients #client-row #wrap {
+#about2 #clients #client-row #wrap {
     width: 200%;
     height: 30vh;
     position: absolute;
@@ -94,18 +196,18 @@
     transition: 2s;
     background: #FFF;
 }
-#about1 #clients #client-row #wrap .client {
+#about2 #clients #client-row #wrap .client {
     flex: 25%;
     height: 100%;
     border: 1px solid #000;
     box-sizing: border-box;
 }
-#about1 #clients #client-row #wrap .client img {
+#about2 #clients #client-row #wrap .client img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-#about1 #clients #client-row #wrap .client p {
+#about2 #clients #client-row #wrap .client p {
     line-height: 30vh;
     vertical-align: middle;
     width: 100%;
@@ -116,105 +218,6 @@
     opacity: 0;
     transition: 0.5s;
 }
-#about1 #clients #client-row #wrap .client p:hover {
+#about2 #clients #client-row #wrap .client p:hover {
     opacity: 0.9;
-}
-#about2 #company {
-    padding: 50px;
-    text-align: center;
-}
-#about2 #stats {
-    display: flex;
-    padding: 50px;
-}
-#about2 #stats .card {
-    width: 15%;
-    margin: 0 5%;
-    height: 25vh;
-    background: radial-gradient(#FFF, #DDD);
-    border: 3px outset #F00;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 5px #222;
-}
-#about2 #stats .card .number {
-    height: 15vh;
-    line-height: 15vh;
-    vertical-align: middle;
-    font-size: 10vh;
-    width: 100%;
-    text-align: center;
-}
-#about2 #stats .card .category {
-    height: 10vh;
-    line-height: 10vh;
-    vertical-align: middle;
-    width: 100%;
-    text-align: center;
-    font-size: x-large;
-}
-#about2 #partners {
-    width: 100%;
-    color: #FFF;
-    background-color: #222;
-    padding: 50px;
-    box-sizing: border-box;
-}
-#about2 #partners h2 {
-    text-align: center;
-}
-#about2 #partners #partner-row {
-    width: 100%;
-    padding: 50px;
-    box-sizing: border-box;
-    display: flex;
-}
-#about2 #partners #partner-row .partner {
-    width: 50%;
-    text-align: left;
-    box-sizing: border-box;
-    padding: 20px;
-    transition: 0.5s;
-}
-#about2 #partners #partner-row .partner:first-child {
-    text-align: right;
-    border-right: 1px solid #F00;
-}
-#about2 #partners #partner-row .partner:hover {
-    background-color: #444;
-}
-#about2 #clients {
-    background: #FFF;
-    box-shadow: 0 0 10px inset #000;
-    padding: 50px 15%;
-}
-#about2 #clients h3 {
-    width: 100%;
-    flex-shrink: 0;
-    text-align: center;
-}
-#about2 #clients #client-photos {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-#about2 #clients #client-photos .client {
-    max-width: 25%;
-}
-#about2 #clients #client-photos .client img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-#about2 #clients #client-names {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#about2 #clients #client-names p {
-    display: inline;
-    line-height: 50px;
-    min-width: 20%;
-    vertical-align: middle;
-    text-align: center;
 }

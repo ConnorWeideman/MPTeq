@@ -1,0 +1,43 @@
+#single1 {
+    background: linear-gradient(#EEE, #BBB);
+    padding: 100px 15%;
+    overflow: hidden;
+}
+#single1 img {
+    width: 30%;
+    height: auto;
+    float: right;
+    border: 5px inset #F00;
+    box-sizing: border-box;
+    margin: 10px;
+}
+#single1 .date-title h1, #single1 .date-title p {
+    display: inline;
+    padding: 10px;
+}
+#single1 .content {
+    padding: 10px;
+}
+#single2 {
+    background: linear-gradient(#EEE, #BBB);
+    padding: 100px;
+}
+#single2 #wrap {
+    display: flex;
+}
+#single2 #wrap #left {
+    flex: 30%;
+}
+#single2 #wrap #left img {
+    width: 100%;
+    height: auto;
+    border: 5px inset #F00;
+    box-sizing: border-box;
+}
+#single2 #wrap #right {
+    padding: 0 50px;
+    flex: 70%;
+}
+#single2 #wrap #right h1 {
+    margin-top: 0;
+}

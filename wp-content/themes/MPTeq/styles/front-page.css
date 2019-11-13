@@ -438,6 +438,7 @@ border: 1px solid #000;
     margin: auto;
 }
 #main3 #news #news-row .news {
+    display: block;
     width: 100%;
     margin: 0 0 10px;
     height: 10vh;
@@ -575,6 +576,7 @@ border: 1px solid #000;
     line-height: 20vh;
     width: 100%;
     text-align: center;
+    color: #FFF;
 }
 #main4 #products #product-container #product-row .product.hide {
     display: none;
@@ -688,6 +690,7 @@ border: 1px solid #000;
     box-shadow: 2px 2px 5px #222;
     transition: 0.5s;
     cursor: pointer;
+    display: block;
 }
 #main4 #news #blog-list .blog .blog-content .blog-tick1 {
     width: 40px;

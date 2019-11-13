@@ -12,21 +12,22 @@
             </div>
             <div class="column" id="products">
                 <h3>Products</h3>
-                <a>Thickeners</a>
-                <a>Jigs</a>
-                <a>Larcodems</a>
-                <a>Agitation Systems</a>
-                <a>Filters</a>
-                <a>Laboratry Services</a>
+                <a href="<?php bloginfo('wpurl')?>/products">Thickeners</a>
+                <a href="<?php bloginfo('wpurl')?>/products">Jigs</a>
+                <a href="<?php bloginfo('wpurl')?>/products">Larcodems</a>
+                <a href="<?php bloginfo('wpurl')?>/products">Agitation Systems</a>
+                <a href="<?php bloginfo('wpurl')?>/products">Filters</a>
+                <a href="<?php bloginfo('wpurl')?>/products">Laboratry Services</a>
+                <a href="<?php bloginfo('wpurl')?>/products">Other</a>
             </div>
             <div class="column">
                 <h3>Projects</h3>
-                <a>Africa</a>
-                <a>Asia</a>
-                <a>Europe</a>
-                <a>North America</a>
-                <a>South America</a>
-                <a>Antarctica</a>
+                <a href="<?php bloginfo('wpurl')?>/projects">Africa</a>
+                <a href="<?php bloginfo('wpurl')?>/projects">Asia</a>
+                <a href="<?php bloginfo('wpurl')?>/projects">Europe</a>
+                <a href="<?php bloginfo('wpurl')?>/projects">North America</a>
+                <a href="<?php bloginfo('wpurl')?>/projects">South America</a>
+                <a href="<?php bloginfo('wpurl')?>/projects">Antarctica</a>
             </div>
             <div class="column" id="contact">
                 <h3>Contact</h3>

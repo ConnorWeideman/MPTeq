@@ -112,13 +112,60 @@ a {
 #navbar #design2 nav ol li {
     width: 20%;
     text-align: center;
+    position: relative;
+}
+#navbar #design2 nav ol li > a {
+    height: 10vh;
+    width: 100%;
+    display: inline-block;
     transition: 1s;
 }
-#navbar #design2 nav ol li:hover {
+#navbar #design2 nav ol li:hover > a {
     background-color: #FAA;
 }
 #navbar #design2 nav ol li a:hover {
     color: #333;
+}
+#navbar #design2 nav ol li .info {
+    display: none;
+    background: #DDD;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    border: 1px solid #F00;
+    min-width: 30vw;
+    justify-content: center;
+    align-content: center;
+}
+#navbar #design2 nav ol li:hover .info {
+    display: flex;
+}
+#navbar #design2 nav ol li .info .left {
+    flex: 50%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    height: max-content;
+    align-self: center;
+}
+#navbar #design2 nav ol li .info .left a {
+    display: block;
+    width: max-content;
+    line-height: 5vh;
+}
+#navbar #design2 nav ol li .info .right {
+    flex: 50%;
+    padding: 20px;
+    max-height: 50vh;
+    line-height: normal;
+    border-left: 1px solid #222;
+}
+#navbar #design2 nav ol li .info .right .content {
+    height: 100%;
+    overflow: auto;
+    background: #FFF;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px inset #AAA;
 }
 #navbar #design3 {
     height: 75vh;

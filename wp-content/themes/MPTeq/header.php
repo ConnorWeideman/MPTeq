@@ -53,18 +53,97 @@
                 <ol>
                     <li>
                         <a href="<?php bloginfo('wpurl')?>/about">ABOUT</a>
+                        <div class="info">
+                            <div class="left">
+                                <a href="<?php bloginfo('wpurl')?>/about#company">Our Company</a>
+                                <a href="<?php bloginfo('wpurl')?>/about#stats">Our Stats</a>
+                                <a href="<?php bloginfo('wpurl')?>/about#partners">Our Partners</a>
+                                <a href="<?php bloginfo('wpurl')?>/about#clients">Our Clients</a>
+                            </div>
+                            <div class="right">
+                                <div class="content">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio expedita harum
+                                    optio nihil, provident beatae placeat nostrum omnis architecto praesentium, sequi
+                                    consequatur animi? Sequi voluptatem tempore doloremque hic? Sed, velit?
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="<?php bloginfo('wpurl')?>/products">PRODUCTS</a>
+                        <div class="info">
+                            <div class="left">
+                                <a href="<?php bloginfo('wpurl')?>/products">Thickeners</a>
+                                <a href="<?php bloginfo('wpurl')?>/products">Jigs</a>
+                                <a href="<?php bloginfo('wpurl')?>/products">Larcodems</a>
+                                <a href="<?php bloginfo('wpurl')?>/products">Agitation Systems</a>
+                                <a href="<?php bloginfo('wpurl')?>/products">Filters</a>
+                                <a href="<?php bloginfo('wpurl')?>/products">Laboratry Services</a>
+                                <a href="<?php bloginfo('wpurl')?>/products">Other</a>
+                            </div>
+                            <div class="right">
+                                <div class="content">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio expedita harum
+                                    optio nihil, provident beatae placeat nostrum omnis architecto praesentium, sequi
+                                    consequatur animi? Sequi voluptatem tempore doloremque hic? Sed, velit?
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="<?php bloginfo('wpurl')?>/projects">PROJECTS</a>
+                        <div class="info">
+                            <div class="left">
+                                <a href="<?php bloginfo('wpurl')?>/projects">Africa</a>
+                                <a href="<?php bloginfo('wpurl')?>/projects">Asia</a>
+                                <a href="<?php bloginfo('wpurl')?>/projects">Europe</a>
+                                <a href="<?php bloginfo('wpurl')?>/projects">North America</a>
+                                <a href="<?php bloginfo('wpurl')?>/projects">South America</a>
+                                <a href="<?php bloginfo('wpurl')?>/projects">Antarctica</a>
+                            </div>
+                            <div class="right">
+                                <div class="content">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio expedita harum
+                                    optio nihil, provident beatae placeat nostrum omnis architecto praesentium, sequi
+                                    consequatur animi? Sequi voluptatem tempore doloremque hic? Sed, velit?
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="<?php bloginfo('wpurl')?>/news">NEWS</a>
+                        <div class="info">
+                            <div class="left">
+                                <a href="<?php bloginfo('wpurl')?>/news">News 1</a>
+                                <a href="<?php bloginfo('wpurl')?>/news">News 2</a>
+                                <a href="<?php bloginfo('wpurl')?>/news">News 3</a>
+                                <a href="<?php bloginfo('wpurl')?>/news">News 4</a>
+                                <a href="<?php bloginfo('wpurl')?>/news">News 5</a>
+                            </div>
+                            <div class="right">
+                                <div class="content">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio expedita harum
+                                    optio nihil, provident beatae placeat nostrum omnis architecto praesentium, sequi
+                                    consequatur animi? Sequi voluptatem tempore doloremque hic? Sed, velit?
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="<?php bloginfo('wpurl')?>/contact">CONTACT</a>
+                        <div class="info">
+                            <div class="left">
+                                <a href="<?php bloginfo('wpurl')?>/contact">Contact Details</a>
+                                <a href="<?php bloginfo('wpurl')?>/contact">Contact Form</a>
+                            </div>
+                            <div class="right">
+                                <div class="content">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio expedita harum
+                                    optio nihil, provident beatae placeat nostrum omnis architecto praesentium, sequi
+                                    consequatur animi? Sequi voluptatem tempore doloremque hic? Sed, velit?
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ol>
             </nav>

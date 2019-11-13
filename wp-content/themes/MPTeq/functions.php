@@ -30,6 +30,10 @@ function load_stylesheets() {
         wp_register_style("singleproductstyles", get_template_directory_uri() . "/styles/product.css", array(), 1, "all" );
         wp_enqueue_style("singleproductstyles");
     }
+    if(is_single()) {
+        wp_register_style("singlestyles", get_template_directory_uri() . "/styles/single.css", array(), 1, "all" );
+        wp_enqueue_style("singlestyles");
+    }
 }
 function load_scripts() {
     wp_register_script("mainscripts", get_template_directory_uri() . "/scripts/main-scripts.js", array(), 1, true);
@@ -65,6 +69,7 @@ function load_scripts() {
 }
 add_action("wp_enqueue_scripts", "load_scripts");
 add_action("wp_enqueue_scripts", "load_stylesheets");
+add_theme_support( 'post-thumbnails' );
 
 @ini_set( 'upload_max_size' , '64M' );
 @ini_set( 'post_max_size', '64M');

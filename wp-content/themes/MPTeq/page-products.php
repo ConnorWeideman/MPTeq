@@ -28,7 +28,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product jigs">
@@ -44,7 +44,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product other">
@@ -60,7 +60,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product filters">
@@ -76,7 +76,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product lab">
@@ -92,7 +92,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product thickeners">
@@ -108,7 +108,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product filters">
@@ -124,7 +124,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product other">
@@ -140,7 +140,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product agitation">
@@ -156,7 +156,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product agitation">
@@ -172,7 +172,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product thickeners">
@@ -188,7 +188,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product filters">
@@ -204,7 +204,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product agitation">
@@ -220,7 +220,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
             <div class="product other">
@@ -236,7 +236,7 @@
                         ultricies auctor lorem. Donec vel aliquam tellus. Mauris facilisis suscipit iaculis. Nulla sed
                         porttitor sapien, id commodo tellus. Quisque vel ultrices risus. Donec in commodo turpis, a
                         sagittis
-                        velit.<a href="<?php bloginfo('wpurl')?>"> Details...</a></p>
+                        velit.<a href="<?php bloginfo('wpurl')?>/products/product"> Details...</a></p>
                 </div>
             </div>
         </div>

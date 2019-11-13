@@ -6,21 +6,21 @@
             <div id="slide">
                 <div id="wrap2">
                     <div id="wrap">
-                        <div class="product">
+                        <a href="<?php bloginfo('wpurl')?>/products" class="product">
                             <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Demsep.jpg">
-                        </div>
-                        <div class="product">
+                        </a>
+                        <a href="<?php bloginfo('wpurl')?>/products" class="product">
                             <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Jigs.jpg">
-                        </div>
-                        <div class="product">
+                        </a>
+                        <a href="<?php bloginfo('wpurl')?>/products" class="product">
                             <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Lab1.jpg">
-                        </div>
-                        <div class="product">
+                        </a>
+                        <a href="<?php bloginfo('wpurl')?>/products" class="product">
                             <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/LinearScreens.jpg">
-                        </div>
-                        <div class="product">
+                        </a>
+                        <a href="<?php bloginfo('wpurl')?>/products" class="product">
                             <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Agitation.jpg">
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="arrow" id="left-arrow">
@@ -52,19 +52,19 @@
                 risus.</p>
         </section>
         <section id="cards">
-            <a class="card" id="card1">
+            <a href="<?php bloginfo('wpurl')?>/about" class="card" id="card1">
                 <div class="icon">
                     <i class="fas fa-user"></i>
                 </div>
                 <h3>PROFILE</h3>
             </a>
-            <a class="card" id="card2">
+            <a href="<?php bloginfo('wpurl')?>/products" class="card" id="card2">
                 <div class="icon">
                     <i class="fas fa-wrench"></i>
                 </div>
                 <h3>PRODUCTS</h3>
             </a>
-            <a class="card" id="card3">
+            <a href="<?php bloginfo('wpurl')?>/projects" class="card" id="card3">
                 <div class="icon">
                     <i class="fas fa-globe-africa"></i>
                 </div>
@@ -73,7 +73,7 @@
         </section>
         <section id="news">
             <div id="news-row">
-                <div class="news">
+                <a href="<?php bloginfo('wpurl')?>/news" class="news">
                     <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/IMG_20190409_093800.jpg">
                     <div class="overlay">
                         <h3>Some news story</h3>
@@ -85,8 +85,8 @@
                             dui, nec ultricies sem sollicitudin quis. Vestibulum ante ipsum primis in faucibus orci
                             luctus et ultrices posuere cubilia Curae;</p>
                     </div>
-                </div>
-                <div class="news">
+                </a>
+                <a href="<?php bloginfo('wpurl')?>/news" class="news">
                     <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/IMG_20190321_142241.jpg">
                     <div class="overlay">
                         <h3>Another news story</h3>
@@ -98,8 +98,8 @@
                             dui, nec ultricies sem sollicitudin quis. Vestibulum ante ipsum primis in faucibus orci
                             luctus et ultrices posuere cubilia Curae;</p>
                     </div>
-                </div>
-                <div class="news">
+                </a>
+                <a href="<?php bloginfo('wpurl')?>/news" class="news">
                     <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/Plant-1.png">
                     <div class="overlay">
                         <h3>News story</h3>
@@ -111,7 +111,7 @@
                             dui, nec ultricies sem sollicitudin quis. Vestibulum ante ipsum primis in faucibus orci
                             luctus et ultrices posuere cubilia Curae;</p>
                     </div>
-                </div>
+                </a>
             </div>
             <h2>NEWS</h2>
         </section>
@@ -164,7 +164,9 @@
             <section id="about" class="section">
                 <div class="content">
                     <div class="nav">
-                        <h2>ABOUT US</h2>
+                        <h2>
+                            <a href="<?php bloginfo('wpurl')?>/about">ABOUT US</a>
+                        </h2>
                         <a>Our Story</a>
                         <a>Our Partners</a>
                         <a>Our Team</a>
@@ -243,7 +245,9 @@
             <section id="products" class="section">
                 <div class="content">
                     <div class="nav">
-                        <h2>PRODUCTS</h2>
+                        <h2>
+                            <a href="<?php bloginfo('wpurl')?>/products">PRODUCTS</a>
+                        </h2>
                         <a>Thickeners</a>
                         <a>Jigs</a>
                         <a>Larcodems</a>
@@ -328,7 +332,9 @@
             <section id="projects" class="section">
                 <div class="content">
                     <div class="nav">
-                        <h2>PROJECTS</h2>
+                        <h2>
+                            <a href="<?php bloginfo('wpurl')?>/projects">PROJECTS</a>
+                        </h2>
                         <a>Africa</a>
                         <a>Asia</a>
                         <a>Europe</a>
@@ -414,7 +420,9 @@
             <section id="news" class="section">
                 <div class="content">
                     <div class="nav">
-                        <h2>NEWS</h2>
+                        <h2>
+                            <a href="<?php bloginfo('wpurl')?>/news">NEWS</a>
+                        </h2>
                         <a>News Story 1</a>
                         <a>News Story 2</a>
                         <a>News Story 3</a>
@@ -513,43 +521,43 @@
             <div id="product-row">
                 <div class="product larcodems">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Demsep.jpg">
-                    <a>Demseps</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Demseps</a>
                 </div>
                 <div class="product jigs">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Jigs.jpg">
-                    <a>Jigs</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Jigs</a>
                 </div>
                 <div class="product lab">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Lab1.jpg">
-                    <a>Laboratry Services</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Laboratry Services</a>
                 </div>
                 <div class="product other">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/LinearScreens.jpg">
-                    <a>Linear Screens</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Linear Screens</a>
                 </div>
                 <div class="product agitation">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Agitation.jpg">
-                    <a>Agitation</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Agitation</a>
                 </div>
                 <div class="product agitation">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/InlineMixer.jpg">
-                    <a>Inline Mixer</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Inline Mixer</a>
                 </div>
                 <div class="product filters">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/HorBeltFilter.jpg">
-                    <a>Horizontal Belt Filter</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Horizontal Belt Filter</a>
                 </div>
                 <div class="product thickeners">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Flocculent.jpg">
-                    <a>Flocculent</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Flocculent</a>
                 </div>
                 <div class="product other">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Attrition-Scrubbers.jpg">
-                    <a>Attrition Scrubbers</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Attrition Scrubbers</a>
                 </div>
                 <div class="product filters">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/MMSandFilter.jpg">
-                    <a>Multi Media Sand Filters</a>
+                    <a href="<?php bloginfo('wpurl')?>/products">Multi Media Sand Filters</a>
                 </div>
             </div>
             <button id="catalogue">Catalogue</button>
@@ -559,53 +567,53 @@
             <div id="project-row">
                 <div class="project">
                     <h3>Africa</h3>
-                    <a>Kimberly</a>
-                    <a>Cape Town</a>
-                    <a>Lexington</a>
-                    <a>Mining Project</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Kimberly</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Cape Town</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Lexington</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Mining Project</a>
                 </div>
                 <div class="project">
                     <h3>Europe</h3>
-                    <a>Kimberly</a>
-                    <a>Cape Town</a>
-                    <a>Lexington</a>
-                    <a>Mining Project</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Kimberly</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Cape Town</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Lexington</a>
+                    <a href="<?php bloginfo('wpurl')?>/projects">Mining Project</a>
                 </div>
                 <div class="project">
                     <h3>Asia</h3>
-                    <a>Kimberly</a>
-                    <a>Cape Town</a>
-                    <a>Lexington</a>
-                    <a>Mining Project</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Kimberly</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Cape Town</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Lexington</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Mining Project</a>
                 </div>
                 <div class="project">
                     <h3>South America</h3>
-                    <a>Kimberly</a>
-                    <a>Cape Town</a>
-                    <a>Lexington</a>
-                    <a>Mining Project</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Kimberly</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Cape Town</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Lexington</a>
+                    <a href="<?php bloginfo('wpurl')?>/project">Mining Project</a>
                 </div>
             </div>
         </section>
         <section id="news">
             <h2>NEWS</h2>
             <div id="news-row">
-                <div class="news">
+                <a href="<?php bloginfo('wpurl')?>/news" class="news">
                     <div class="date">18</div>
                     <div class="title">A News Story</div>
-                </div>
-                <div class="news">
+                </a>
+                <a href="<?php bloginfo('wpurl')?>/news" class="news">
                     <div class="date">15</div>
                     <div class="title">This News Story</div>
-                </div>
-                <div class="news">
+                </a>
+                <a href="<?php bloginfo('wpurl')?>/news" class="news">
                     <div class="date">12</div>
                     <div class="title">Some News Story</div>
-                </div>
-                <div class="news">
+                </a>
+                <a href="<?php bloginfo('wpurl')?>/news" class="news">
                     <div class="date">10</div>
                     <div class="title">Another News Story</div>
-                </div>
+                </a>
             </div>
         </section>
         <section id="clients">
@@ -671,54 +679,54 @@
                     <a id="other">Other</a>
                 </div>
                 <div id="product-row">
-                    <div class="product larcodems">
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product larcodems">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Demsep.jpg">
                         <div class="overlay">
                             <h3>Demseps</h3>
                         </div>
-                    </div>
-                    <div class="product jigs">
+                    </a>
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product jigs">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Jigs.jpg">
                         <div class="overlay">
                             <h3>Jigs</h3>
                         </div>
-                    </div>
-                    <div class="product lab">
+                    </a>
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product lab">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Lab1.jpg">
                         <div class="overlay">
                             <h3>Laboratry Services</h3>
                         </div>
-                    </div>
-                    <div class="product other">
+                    </a>
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product other">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/LinearScreens.jpg">
                         <div class="overlay">
                             <h3>Linear Screens</h3>
                         </div>
-                    </div>
-                    <div class="product agitation">
+                    </a>
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product agitation">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Agitation.jpg">
                         <div class="overlay">
                             <h3>Agitation</h3>
                         </div>
-                    </div>
-                    <div class="product agitation">
+                    </a>
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product agitation">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/InlineMixer.jpg">
                         <div class="overlay">
                             <h3>Inline Mixer</h3>
                         </div>
-                    </div>
-                    <div class="product filters">
+                    </a>
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product filters">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/HorBeltFilter.jpg">
                         <div class="overlay">
                             <h3>Horizontal Belt Filter</h3>
                         </div>
-                    </div>
-                    <div class="product thickeners">
+                    </a>
+                    <a href="<?php bloginfo('wpurl')?>/products" class="product thickeners">
                         <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Flocculent.jpg">
                         <div class="overlay">
                             <h3>Flocculent</h3>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -801,7 +809,7 @@
             <div id="blog-list">
                 <div class="blog">
                     <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/Plant-1.png">
-                    <div class="blog-content">
+                    <a href="<?php bloginfo('wpurl')?>/news" class="blog-content">
                         <h3>Title</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor diam in felis
                             posuere, et
@@ -811,11 +819,11 @@
                             viverra sem vitae, volutpat sem.</p>
                         <div class="blog-tick1"></div>
                         <div class="blog-tick2"></div>
-                    </div>
+                    </a>
                 </div>
                 <div class="blog">
                     <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/Plant-1.png">
-                    <div class="blog-content">
+                    <a href="<?php bloginfo('wpurl')?>/news" class="blog-content">
                         <h3>Title</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor diam in felis
                             posuere, et
@@ -825,11 +833,11 @@
                             viverra sem vitae, volutpat sem.</p>
                         <div class="blog-tick1"></div>
                         <div class="blog-tick2"></div>
-                    </div>
+                    </a>
                 </div>
                 <div class="blog">
                     <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/Plant-1.png">
-                    <div class="blog-content">
+                    <a href="<?php bloginfo('wpurl')?>/news" class="blog-content">
                         <h3>Title</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor diam in felis
                             posuere, et
@@ -839,7 +847,7 @@
                             viverra sem vitae, volutpat sem.</p>
                         <div class="blog-tick1"></div>
                         <div class="blog-tick2"></div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
