@@ -1,55 +1,7 @@
-function toggleDesign(designs, toggle) {
-    designs.forEach((design, i) => {
-        if (i == toggle.value) {
-            design.style.display = "block";
-        }
-        else design.style.display = "none";
-    })
-}
-
-const navs = document.querySelectorAll("#navbar .design");
-const navToggle = document.querySelector("#nav-toggle");
-navToggle.addEventListener("change", () => toggleDesign(navs, navToggle));
-
-const mainToggle = document.querySelector("#main-toggle");
-if (mainToggle) {
-    const mains = document.querySelectorAll("main .design");
-    mainToggle.addEventListener("change", () => toggleDesign(mains, mainToggle));
-}
-
-const footers = document.querySelectorAll("footer .design");
-const footerToggle = document.querySelector("#footer-toggle");
-footerToggle.addEventListener("change", () => toggleDesign(footers, footerToggle));
-
-
-
-const design1Nav = document.querySelector("#navbar #design1 nav");
-const design1HeaderScroll = document.querySelector("#navbar #design1").scrollHeight - design1Nav.scrollHeight;
-const design1Logo = document.querySelector("#navbar #design1 #logo");
-const design1NavOl = document.querySelector("#navbar #design1 nav ol");
-function design1NavScroll() {
-    if (window.scrollY > design1HeaderScroll) {
-        design1Nav.style.position = "fixed";
-        design1Nav.style.top = "0";
-        design1Nav.style.bottom = "";
-        design1Logo.style.position = "fixed";
-        design1Logo.style.width = "10%";
-        design1NavOl.style.width = "75%";
-    }
-    else {
-        design1Nav.style.top = "";
-        design1Nav.style.bottom = "0";
-        design1Nav.style.position = "absolute";
-        design1Logo.style.position = "absolute";
-        design1Logo.style.width = "15%";
-        design1NavOl.style.width = "100%";
-    }
-}
-
-const design3NavOl = document.querySelector("#navbar #design3 nav ol");
+const design3NavOl = document.querySelector("#navbar nav ol");
 
 function design3NavScroll() {
-    const design3HeaderScroll = document.querySelector("#navbar #design3 nav").scrollHeight - design3NavOl.scrollHeight;
+    const design3HeaderScroll = document.querySelector("#navbar# nav").scrollHeight - design3NavOl.scrollHeight;
     if (window.scrollY > design3HeaderScroll) {
         design3NavOl.style.position = "fixed";
     }
@@ -58,15 +10,12 @@ function design3NavScroll() {
     }
 }
 
-const design1 = document.querySelector("#navbar #design1");
-const design3 = document.querySelector("#navbar #design3");
+const design3 = document.querySelector("#navbar");
 document.onscroll = () => {
-    if (design1.style.display == "block") design1NavScroll();
-    else if (design3.style.display == "block") design3NavScroll();
+    if (design3.style.display == "block") design3NavScroll();
 }
 document.onload = () => {
-    if (design1.style.display == "block") design1NavScroll();
-    else if (design3.style.display == "block") design3NavScroll();
+    if (design3.style.display == "block") design3NavScroll();
 }
 
 const icons = document.querySelectorAll("footer #design4 .column div");
@@ -75,6 +24,40 @@ icons.forEach(icon => {
         footerDesign4Details(icon.id);
     })
 })
+
+function main2Toggle(index, id) {
+    const options = document.querySelectorAll(`#main2 #box #${id} .content .info .info-option`);
+    options.forEach(el => {
+        el.style.display = "none";
+    });
+    options[index].style.display = "block";
+}
+
+document.querySelectorAll("#main2 #box .section .content .nav a").forEach(toggle => {
+    toggle.addEventListener("click", (e) => {
+        let i = 0;
+        e.target.parentElement.childNodes.forEach(el => {
+            if (el == e.target) {
+                index = (i - 3) / 2;
+            }
+            i++;
+        })
+        const id = e.composedPath()[3].id;
+        main2Toggle(index, id);
+    })
+});
+
+function productsToggle(toggle, products) {
+    products.forEach(product => {
+        if (product.classList.contains(toggle) || toggle == "all") {
+            product.classList.remove("hide");
+        }
+        else {
+            product.classList.add("hide");
+        }
+    })
+}
+
 function footerDesign4Details(id) {
     const details = document.querySelector(`footer #design4 #details #${id}`);
     if (details.style.display === "block") {

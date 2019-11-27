@@ -25,12 +25,6 @@ a {
 .toggle:hover {
     opacity: 1;
 }
-.design {
-    display: none;
-}
-.design:first-child {
-    display: block;
-}
 #navbar {
     width: 100%;
     background-color: #AAA;
@@ -54,127 +48,14 @@ a {
 #navbar li a:hover {
     color: #555;
 }
-#navbar #design1 {
-    height: 75vh;
-    background-image: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190425_180504.jpg");
-    background-position: center center;
-    background-size: cover;
-}
-#navbar #design1 #logo {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 15%;
-    padding: 10px;
-    z-index: 11;
-}
-#navbar #design1 nav {
-    position: absolute;
-    bottom: 0;
-    height: max-content;
-    width: 100%;
-    background-image: linear-gradient(to right, #AAA, #EEE);
-    box-shadow: 0 0 5px 0 #555;
-    z-index: 10;
-}
-#navbar #design1 nav ol {
-    float: right;
-    width: 100%;
-    display: flex;
-}
-#navbar #design1 nav li {
-    width: 20%;
-    text-align: center;
-}
-#navbar #design2 {
-    position: relative;
-    background-image: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190425_180504.jpg");
-    background-position: center center;
-    background-size: cover;
-    height: 75vh;
-    border-bottom: 5px solid #F00;
-}
-#navbar #design2 nav {
-    height: 10vh;
-    background-color: #DDD;
-    border-bottom: 1px solid #F00;
-}
-#navbar #design2 nav img {
-    height: 10vh;
-    padding: 10px;
-    box-sizing: border-box;
-}
-#navbar #design2 nav ol {
-    float: right;
-    width: 75%;
-    display: flex;
-}
-#navbar #design2 nav ol li {
-    width: 20%;
-    text-align: center;
-    position: relative;
-}
-#navbar #design2 nav ol li > a {
-    height: 10vh;
-    width: 100%;
-    display: inline-block;
-    transition: 1s;
-}
-#navbar #design2 nav ol li:hover > a {
-    background-color: #FAA;
-}
-#navbar #design2 nav ol li a:hover {
-    color: #333;
-}
-#navbar #design2 nav ol li .info {
-    display: none;
-    background: #DDD;
-    position: absolute;
-    top: 10vh;
-    right: 0;
-    border: 1px solid #F00;
-    min-width: 30vw;
-    justify-content: center;
-    align-content: center;
-}
-#navbar #design2 nav ol li:hover .info {
-    display: flex;
-}
-#navbar #design2 nav ol li .info .left {
-    flex: 50%;
-    padding: 10px 50px;
-    box-sizing: border-box;
-    height: max-content;
-    align-self: center;
-}
-#navbar #design2 nav ol li .info .left a {
-    display: block;
-    width: max-content;
-    line-height: 5vh;
-}
-#navbar #design2 nav ol li .info .right {
-    flex: 50%;
-    padding: 20px;
-    max-height: 50vh;
-    line-height: normal;
-    border-left: 1px solid #222;
-}
-#navbar #design2 nav ol li .info .right .content {
-    height: 100%;
-    overflow: auto;
-    background: #FFF;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 2px inset #AAA;
-}
-#navbar #design3 {
-    height: 75vh;
+#navbar {
+    height: 50vh;
     background-image: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190425_180504.jpg");
     background-position: center center;
     background-size: cover;
     padding-top: 30vh;
 }
-#navbar #design3 nav {
+#navbar nav {
     top: 0;
     height: auto;
     width: 100%;
@@ -182,21 +63,21 @@ a {
     z-index: 10;
     background-color: #DDD;
 }
-#navbar #design3 nav img {
+#navbar nav img {
     height: 20vh;
     float: left;
     padding: 20px;
     box-sizing: border-box;
 }
-#navbar #design3 nav #contact {
+#navbar nav #contact {
     text-align: center;
     padding: 20px;
 }
-#navbar #design3 nav #contact p {
+#navbar nav #contact p {
     margin: 0;
     padding: 10px;
 }
-#navbar #design3 nav ol {
+#navbar nav ol {
     width: 100%;
     top: 0;
     box-sizing: border-box;
@@ -204,157 +85,125 @@ a {
     border: 3px outset #CDCDCD;
     background-image: radial-gradient(#FFF, #DDD);
 }
-#navbar #design3 nav ol li {
+#navbar nav ol li {
     width: 20%;
     text-align: center;
-}
-#navbar #design4 {
-    position: relative;
-    background-image: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190425_180504.jpg");
-    background-position: center center;
-    background-size: cover;
-    height: 75vh;
-    overflow: hidden;
-}
-#navbar #design4 .diagonal {
-    position: absolute;
-    bottom: 0;
-    transform: rotate(-2deg) translateY(50%) translateX(-25%);
-    background-color: #EEE;
-    border-top: 5px solid #F00;
-    width: 150%;
-    height: 25%;
-}
-#navbar #design4 nav {
-    position: fixed;
-    width: 100%;
-    height: 10vh;
-    background-color: #DDD;
-    border-bottom: 1px solid #BBB;
-    padding: 5px;
-    z-index: 10;
-}
-#navbar #design4 nav img {
-    width: 15%;
-    padding: 10px;
-    box-sizing: border-box;
-    vertical-align: middle;
-}
-#navbar #design4 nav ol {
-    width: 70%;
-    float: right;
-    position: relative;
-}
-#navbar #design4 nav ol li {
-    width: 16%;
-    height: 100%;
-    text-align: center;
-}
-#navbar #design4 nav ol li a {
-    vertical-align: middle;
-    text-shadow: 0 0 100px #0FF, 2px 2px 0px #FFF;
-    font-weight: bold;
-}
-#navbar #design4 nav ol li.active {
-    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/Small-Logo.png") center center no-repeat;
-    background-size: contain;
 }
 main {
     position: relative;
     background-color: #EEE;
     color: #000;
 }
+#main2 {
+    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/Background-Pattern.jpg") top left repeat;
+    padding: 15vh 0;
+    box-shadow: 0 0 10px 2px #555 inset;
+    border-top: 10px ridge #AAA;
+}
+#main2 #box {
+    height: 90vh;
+    width: 70%;
+    margin: auto;
+    background-color: #FFF;
+    display: flex;
+    border: 10px outset #777;
+    flex-wrap: wrap;
+}
+#main2 #box .section {
+    height: 50%;
+    width: 50%;
+border: 1px solid #000;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+#main2 #box #about {
+    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/HD-Logo.jpg") center center/contain no-repeat;
+}
+#main2 #box #products {
+    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/Demsep.jpg") center center/contain no-repeat;
+}
+#main2 #box #projects {
+    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190409_093805.jpg") center center/cover no-repeat;
+}
+#main2 #box #news {
+    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190314_194844.jpg") center center/cover no-repeat;
+}
+#main2 #box .section .content {
+    width: 50%;
+    height: 40vh;
+    position: absolute;
+    bottom: -30vh;
+    background-color: #DDD;
+    transition: 1s;
+    border: 1px solid #222;
+    border-right: 5px solid #F00;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main2 #box .section:hover .content {
+    bottom: 0;
+    width: 100%;
+}
+#main2 #box .section:hover .content .nav {
+    width: 50%;
+}
+#main2 #box .section:hover .content .info {
+    width: 50%;
+    display: block;
+}
+#main2 #box .section .content .nav {
+    display: inline-block;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+#main2 #box .section .content .nav h2 {
+    line-height: 10vh;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+#main2 #box .section .content .nav a {
+    display: block;
+    padding: 5px 0;
+    cursor: pointer;
+    width: max-content;
+}
+#main2 #box .section .content .nav a:hover {
+    color: #555;
+}
+#main2 #box .section .content .nav a:first-child {
+    padding-top: 0;
+}
+#main2 #box .section .content .info {
+    display: none;
+    float: right;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1s;
+    background-color: #FFF;
+    border: 2px inset #DDD;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main2 #box .section .content .info:hover {
+    overflow: auto;
+}
+#main2 #box .section .content .info .info-option {
+    display: none;
+}
+#main2 #box .section .content .info .info-option:first-child {
+    display: block;
+}
+#main2 #box .section .content .info .info-option *:first-child {
+    margin-block-start: 0;
+}
 footer {
     position: relative;
     min-height: 10vh;
     color: #FFF;
-}
-footer #design1 {
-    height: auto;
-    display: flex;
-    text-align: center;
-    background-color: #222;
-    padding: 20px;
-}
-footer #design1 .column {
-    width: 25%;
-    border-left: 1px solid #555;
-    border-right: 1px solid #555;
-    padding: 20px;
-    box-sizing: border-box;
-}
-footer #design1 .column h3 {
-    border-bottom: 3px solid #DDD;
-}
-footer #design1 .column a {
-    display: block;
-    padding: 10px;
-    margin: 5px;
-    background-color: #444;
-    color: #FFF;
-    cursor: pointer;
-}
-footer #design1 .column a:hover {
-    background-color: #333;
-}
-footer #design1 #about p {
-    padding: 10px 50px;
-}
-footer #design1 #contact img {
-    object-fit: contain;
-    width: 100%;
-}
-footer #design2 {
-    display: flex;
-    padding: 50px;
-    background-image: linear-gradient(#222, #444);
-}
-footer #design2 .column {
-    width: 33%;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
-footer #design2 .column p {
-    padding: 25px 20px;
-    margin: 0;
-    text-align: center;
-    text-shadow: 2px 2px #000;
-}
-footer #design2 #message form * {
-    margin: 10px 0;
-    padding: 10px;
-    box-sizing: border-box;
-}
-footer #design2 #message input[type="email"] {
-    width: 100%;
-}
-footer #design2 #message textarea {
-    width: 100%;
-    min-height: 100px;
-}
-footer #design2 .column img {
-    width: 100%;
-    object-fit: contain;
-    border: 3px inset #DDD;
-    box-sizing: border-box;
-}
-footer #design3 {
-    background: radial-gradient(#222, #111);
-    display: flex;
-    padding: 25px;
-}
-footer #design3 .column {
-    text-align: center;
-    width: 33%;
-}
-footer #design3 .column svg {
-    font-size: 150%;
-    padding: 10px;
-    vertical-align: middle;
-}
-footer #design3 .column p {
-    display: inline;
-    vertical-align: middle;
 }
 footer #design4 {
     background: #222;
