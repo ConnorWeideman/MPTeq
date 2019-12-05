@@ -13,126 +13,104 @@ a {
     text-decoration: none;
     color: #000;
 }
-.toggle {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    width: 5vw;
-    opacity: 0.3;
-    transition: 0.25s;
-    z-index: 100;
-}
-.toggle:hover {
-    opacity: 1;
-}
 #navbar {
     width: 100%;
-    background-color: #AAA;
+    background-color: #DDD;
     position: relative;
-    top: 0;
-    left: 0;
 }
-#navbar ol {
+#navbar #top {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+#navbar #top img {
+    height: 20vh;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 20px;
+    box-sizing: border-box;
+    align-self: center;
+}
+#navbar #top #contacts {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+#navbar #top #contacts a {
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+#navbar nav {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+#navbar nav ol {
+    width: 100%;
+    top: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px outset #CDCDCD;
+    background-image: radial-gradient(#FFF, #DDD);
 }
-#navbar li {
+#navbar nav ol li {
+    flex: 20%;
+    text-align: center;
     list-style: none;
     display: inline-block;
     line-height: 10vh;
     vertical-align: middle;
 }
-#navbar li a {
+#navbar nav ol li a {
     cursor: pointer;
+    margin: 10px;
 }
-#navbar li a:hover {
+#navbar nav ol li a:hover {
     color: #555;
-}
-#navbar {
-    height: 50vh;
-    background-image: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190425_180504.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding-top: 30vh;
-}
-#navbar nav {
-    top: 0;
-    height: auto;
-    width: 100%;
-    position: absolute;
-    z-index: 10;
-    background-color: #DDD;
-}
-#navbar nav img {
-    height: 20vh;
-    float: left;
-    padding: 20px;
-    box-sizing: border-box;
-}
-#navbar nav #contact {
-    text-align: center;
-    padding: 20px;
-}
-#navbar nav #contact p {
-    margin: 0;
-    padding: 10px;
-}
-#navbar nav ol {
-    width: 100%;
-    top: 0;
-    box-sizing: border-box;
-    display: flex;
-    border: 3px outset #CDCDCD;
-    background-image: radial-gradient(#FFF, #DDD);
-}
-#navbar nav ol li {
-    width: 20%;
-    text-align: center;
 }
 main {
     position: relative;
     background-color: #EEE;
     color: #000;
-}
-#main2 {
     background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/Background-Pattern.jpg") top left repeat;
     padding: 15vh 0;
     box-shadow: 0 0 10px 2px #555 inset;
-    border-top: 10px ridge #AAA;
+
 }
-#main2 #box {
-    height: 90vh;
+main #box {
     width: 70%;
     margin: auto;
     background-color: #FFF;
     display: flex;
-    border: 10px outset #777;
+    border: 10px inset #DDD;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
-#main2 #box .section {
-    height: 50%;
+main #box .section {
     width: 50%;
-border: 1px solid #000;
+    border: 1px solid #000;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
+    background: center center/cover no-repeat;
 }
-#main2 #box #about {
-    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/HD-Logo.jpg") center center/contain no-repeat;
-}
-#main2 #box #products {
-    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/Demsep.jpg") center center/contain no-repeat;
-}
-#main2 #box #projects {
-    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190409_093805.jpg") center center/cover no-repeat;
-}
-#main2 #box #news {
-    background: url("http://localhost/MPTeq/wp-content/uploads/2019/10/IMG_20190314_194844.jpg") center center/cover no-repeat;
-}
-#main2 #box .section .content {
-    width: 50%;
-    height: 40vh;
+main #box .section .background-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     position: absolute;
+    top: 0;
+    left: 0;
+}
+main #box .section .content {
+    height: 40vh;
+    width: min-content;
+    position: relative;
     bottom: -30vh;
     background-color: #DDD;
     transition: 1s;
@@ -140,81 +118,107 @@ border: 1px solid #000;
     border-right: 5px solid #F00;
     padding: 10px;
     box-sizing: border-box;
+    display: flex;
 }
-#main2 #box .section:hover .content {
-    bottom: 0;
+main #box .section:hover .content {
     width: 100%;
+    bottom: 0;
 }
-#main2 #box .section:hover .content .nav {
-    width: 50%;
-}
-#main2 #box .section:hover .content .info {
-    width: 50%;
+main #box .section:hover .content .info {
     display: block;
 }
-#main2 #box .section .content .nav {
-    display: inline-block;
-    padding: 0 20px;
+main #box .section .content .nav {
+    padding: 0 40px;
     box-sizing: border-box;
+    max-width: 70%;
 }
-#main2 #box .section .content .nav h2 {
+main #box .section .content .nav h2 {
     line-height: 10vh;
     vertical-align: middle;
     margin: 0;
     position: relative;
     top: -10px;
 }
-#main2 #box .section .content .nav a {
+main #box .section .content .nav > a {
     display: block;
-    padding: 5px 0;
+    padding: 2px 0;
     cursor: pointer;
-    width: max-content;
+    position: relative;
+    top: -10px;
 }
-#main2 #box .section .content .nav a:hover {
+main #box .section .content .nav a:hover {
     color: #555;
 }
-#main2 #box .section .content .nav a:first-child {
-    padding-top: 0;
+main #box .section .content .nav #paginate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-#main2 #box .section .content .info {
-    display: none;
-    float: right;
-    overflow: hidden;
-    width: 0;
+main #box .section .content .nav #paginate span {
+    color: #AAA;
+}
+main #box .section .content .info {
     height: 100%;
-    transition: 1s;
+    width: 100%;
     background-color: #FFF;
-    border: 2px inset #DDD;
     padding: 10px;
     box-sizing: border-box;
-}
-#main2 #box .section .content .info:hover {
-    overflow: auto;
-}
-#main2 #box .section .content .info .info-option {
+    position: relative;
     display: none;
+    border: 2px inset #DDD;
 }
-#main2 #box .section .content .info .info-option:first-child {
+main #box .section .content .info svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    opacity: 0.3;
+    z-index: 1;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+main #box .section .content .info svg:active {
+    opacity: 1!important;
+}
+main #box .section .content .info .fa-chevron-up {
+    bottom: unset;
+    top: 0;
+    opacity: 0;
+}
+main #box .section .content .info .info-option {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+main #box .section .content .info .info-option:nth-child(3) {
     display: block;
 }
-#main2 #box .section .content .info .info-option *:first-child {
+main #box .section .content .info .info-option *:first-child {
     margin-block-start: 0;
+}
+main #box .section .content .info .info-option img {
+    width: 100%;
+    height: auto;
 }
 footer {
     position: relative;
     min-height: 10vh;
     color: #FFF;
-}
-footer #design4 {
     background: #222;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
-footer #design4 .column {
+footer .column {
     width: 25%;
 }
-footer #design4 .column .icon {
+footer .column .icon {
     width: 75px;
     height: 75px;
     background: radial-gradient(#666, #444);
@@ -226,25 +230,79 @@ footer #design4 .column .icon {
     object-fit: contain;
     cursor: pointer;
 }
-footer #design4 .column .icon:hover {
+footer .column .icon:active {
     background: radial-gradient(#444, #222);
     color: #DDD;
 }
-footer #design4 .column .icon svg {
+footer .column .icon svg {
     height: 100%;
     width: auto;
     padding: 20px;
     box-sizing: border-box;
 }
-footer #design4 #details {
+footer #details {
     width: 100%;
     flex-shrink: 0;
 }
-footer #design4 #details div {
+footer #details div {
     display: none;
     text-align: center;
     width: 100%;
     padding: 50px 50px 0;
     box-sizing: border-box;
+}
+footer #details div a {
+    color: #FFF;
     text-shadow: 2px 2px #000;
+}
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 95%;
+    }
+    #navbar #top img {
+        height: 15vh;
+    }
+    #navbar nav ol li {
+        line-height: 8vh;
+    }
+    main {
+        padding: 10vh 0;
+        background: linear-gradient(#BBB, #999);
+    }
+    main #box {
+        width: 80%;
+    }
+    main #box .section {
+        width: 100%;
+    }
+    main #box .section .content .nav {
+        padding: 0 20px;
+    }
+    footer {
+        padding: 20px;
+    }
+    footer .column .icon {
+        width: 50px;
+        height: 50px;
+    }
+    footer .column .icon svg {
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #navbar #top img {
+        height: 20vh;
+    }
+    main {
+        padding: 5vh 0;
+    }
+    main #box {
+        width: 90%;
+    }
+        main #box .section .content .nav {
+        padding: 0 10px;
+    }
+    *:hover {
+        outline: none;
+    }
 }

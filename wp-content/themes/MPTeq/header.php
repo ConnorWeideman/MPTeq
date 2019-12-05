@@ -14,37 +14,37 @@
     <meta name="description" content="MPTeq: The experts in mineral processing technology.">
     <meta name="keywords" content="mineral, mining, processing, technology, mpteq, minerals">
     <link rel="icon" href="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Small-Logo.png">
-    <title>Home</title>
+    <title>MPTeq</title>
     <script src="https://kit.fontawesome.com/5633037ef4.js" data-auto-replace-svg="nest"></script>
     <?php wp_head()?>
 </head>
 
 <body>
     <header id="navbar">
-        <nav>
-            <a href="<?php bloginfo('wpurl')?>">
-                <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
-            </a>
-            <div id="contact">
-                <p>PHONE: +27 (0) 79 885 2513</p>
-                <p>FAX: +27 (0) 86 293 0351</p>
-                <p>EMAIL: info@mpteq.com</p>
+        <div id="top">
+            <img id="logo" src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Full-Logo.png" alt="Logo">
+            <div id="contacts">
+                <a href="tel:+27798852513">PHONE: +27 (0) 79 885 2513</a>
+                <a href="fax:+27862930351">FAX: +27 (0) 86 293 0351</a>
+                <a href="mailto:info@mpteq.com">EMAIL: info@mpteq.com</a>
             </div>
+        </div>
+        <nav>
             <ol>
                 <li>
-                    <a href="<?php bloginfo('wpurl')?>/about">ABOUT</a>
+                    <a href="#about">ABOUT</a>
                 </li>
                 <li>
-                    <a href="<?php bloginfo('wpurl')?>/products">PRODUCTS</a>
+                    <a href="#products">PRODUCTS</a>
                 </li>
                 <li>
-                    <a href="<?php bloginfo('wpurl')?>/projects">PROJECTS</a>
+                    <a href="#projects">PROJECTS</a>
                 </li>
                 <li>
-                    <a href="<?php bloginfo('wpurl')?>/news">NEWS</a>
+                    <a href="#news">NEWS</a>
                 </li>
                 <li>
-                    <a href="<?php bloginfo('wpurl')?>/contact">CONTACT</a>
+                    <a href="#contact">CONTACT</a>
                 </li>
             </ol>
         </nav>

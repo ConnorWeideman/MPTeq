@@ -1,51 +1,49 @@
-const design3NavOl = document.querySelector("#navbar nav ol");
-
-function design3NavScroll() {
-    const design3HeaderScroll = document.querySelector("#navbar# nav").scrollHeight - design3NavOl.scrollHeight;
-    if (window.scrollY > design3HeaderScroll) {
-        design3NavOl.style.position = "fixed";
-    }
-    else {
-        design3NavOl.style.position = "";
-    }
-}
-
-const design3 = document.querySelector("#navbar");
-document.onscroll = () => {
-    if (design3.style.display == "block") design3NavScroll();
-}
-document.onload = () => {
-    if (design3.style.display == "block") design3NavScroll();
-}
-
-const icons = document.querySelectorAll("footer #design4 .column div");
-icons.forEach(icon => {
-    icon.addEventListener("click", () => {
-        footerDesign4Details(icon.id);
-    })
-})
-
-function main2Toggle(index, id) {
-    const options = document.querySelectorAll(`#main2 #box #${id} .content .info .info-option`);
-    options.forEach(el => {
-        el.style.display = "none";
-    });
-    options[index].style.display = "block";
-}
-
-document.querySelectorAll("#main2 #box .section .content .nav a").forEach(toggle => {
+document.querySelectorAll("main #box .section .content .nav a").forEach(toggle => {
     toggle.addEventListener("click", (e) => {
-        let i = 0;
-        e.target.parentElement.childNodes.forEach(el => {
-            if (el == e.target) {
-                index = (i - 3) / 2;
+        toggle.parentElement.nextElementSibling.querySelectorAll(".info-option").forEach(option => {
+            if (option.id == toggle.id) {
+                option.style.display = "block";
             }
-            i++;
+            else {
+                option.style.display = "none";
+            }
         })
-        const id = e.composedPath()[3].id;
-        main2Toggle(index, id);
-    })
+    });
 });
+
+document.querySelectorAll("main #box .section .content .info i").forEach(arrow => {
+    let arr = [];
+    arrow.parentElement.childNodes.forEach(info => {
+        if (info.nodeType != 3) {
+            if (info.classList.contains("info-option")) {
+                arr.push(info);
+            }
+        }
+    });
+    arrow.addEventListener("click", e => {
+        const block = arr.find(option => {
+            return option.style.display == "block";
+        });
+        if (arrow.firstChild.classList.contains("fa-chevron-down")) {
+            block.scrollBy(0, 100);
+            arrow.previousElementSibling.firstChild.style.opacity = "0.3";
+        }
+        else if (arrow.firstChild.classList.contains("fa-chevron-up")) {
+            block.scrollBy(0, -100);
+            window.setTimeout(() => {
+                if (block.scrollTop == 0) {
+                    arrow.firstChild.style.opacity = "0";
+                }
+            }, 300);
+        }
+    });
+});
+window.onload = () => {
+    document.querySelectorAll("main #box .section .content .info .info-option:nth-child(3)").forEach(info => {
+        info.style.display = "block";
+    })
+}
+
 
 function productsToggle(toggle, products) {
     products.forEach(product => {
@@ -58,12 +56,20 @@ function productsToggle(toggle, products) {
     })
 }
 
-function footerDesign4Details(id) {
-    const details = document.querySelector(`footer #design4 #details #${id}`);
+
+function footerDetails(id) {
+    const details = document.querySelector(`footer #details #${id}`);
     if (details.style.display === "block") {
         details.style.display = "none";
     }
     else {
         details.style.display = "block";
     }
+    window.scrollBy(0, 1000);
 }
+const icons = document.querySelectorAll("footer .column div");
+icons.forEach(icon => {
+    icon.addEventListener("click", () => {
+        footerDetails(icon.id);
+    })
+});
